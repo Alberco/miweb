@@ -16,3 +16,9 @@ print(imprimirNombre("Guillermo"))
 print(sumaNumeros(1,2))
 
 print("hola")
+
+
+def funcionMatematica(x:float,y:float) -> float:
+    return x/y
+
+print(funcionMatematica(23.2,2.2))
